@@ -21,3 +21,128 @@
 <li><a href="#s9">Creating a simple menu widget to display subcategories in the spoiler</a></li>
 <li><a href="#s10">A plugin that implements schema.org markup</a></li>
 </ol>
+<h3 id="s1">1. Plugin-Cards (Add menu admin bar add/remove card in bd)</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Initial development of a plugin for WP for adding custom cards through the admin.</li>
+<li>Saving in the database, working with the CRUD method</li>
+</ul>
+<p>👀 Examples:</p>
+<ul>
+<li><a href="https://github.com/max3w/Plugin-Cards" target="_blank" rel="noopener">https://github.com/max3w/Plugin-Cards</a></li>
+<li>Video work: <a href="https://drive.google.com/file/d/1Djq5BCRafuVuZ1-xllmabCw7NoC5YuXk/view" target="_blank" rel="noopener">https://drive.google.com/file/d/1Djq5BCRafuVuZ1-xllmabCw7NoC5YuXk/view</a></li>
+</ul>
+<h3 id="s2">2. Add a readmore button and less when inserting the <!--Readmore--> tag</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>When the user inserts the <!--Readmore--> button in the visual editor, in the output template, divide and hide the text, change the Read / Less buttons</li>
+</ul>
+<p>👀 Examples:</p>
+<ul>
+<li>Change a variable in a template:<br>
+`<?php
+$p = get_field("hero_p");
+echo $p;
+//Add read more
+$post = '<p>' . preg_replace('[<!--more-->]', '<span class="rmore">Read more...</span><span class="moretext">', $p) . '</span></p>';
+echo $post;
+?>`</li>
+<li><a href="https://jsfiddle.net/max3w/mubo6zw3/12/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/mubo6zw3/12/</a></li>
+</ul>
+<h3 id="s3">3. Creating order steps in the online store</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Creating stages of the order on the example of the site https://dnipro-m.ua/checkout/</li>
+<li>Modification of the basket of the online store Woo</li>
+</ul>
+<p>👀 Examples:</p>
+<ul>
+<li>Developed a prototype script <a href="https://jsfiddle.net/max3w/7furoxbm/3/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/7furoxbm/3/</a></li>
+<li>Redesigned shopping cart, to the desired type and functionality. The final result: <a href="https://skr.sh/sAbOMpA9a2S?a" target="_blank" rel="noopener">https://skr.sh/sAbOMpA9a2S?a</a></li>
+</ul>
+<h3 id="s4">4. Create a beautiful feedback widget (links to Viber, Telegram, Email, etc.)</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Development of a universal widget for communication with svg icons.</li>
+</ul>
+<p>👀 Examples:</p>
+<ul>
+<li><a href="https://jsfiddle.net/max3w/z41u7nhr/7/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/z41u7nhr/7/</a></li>
+</ul>
+<h3 id="s5">5. Script for calculating the balcony by price, size. Online calculation of values</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Online calculation of values at specified prices</li>
+</ul>
+<p>👀 Examples:</p>
+<ul>
+<li><a href="https://jsfiddle.net/max3w/fn3jhbvo/30/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/fn3jhbvo/30/</a></li>
+</ul>
+<h3 id="s6">6. Synchronization of unloading of goods between the application from the playmarket, 1C and the Woo site</h3>
+<p>✍🏻 Task:</p>
+<p>Configure the upload of goods to the online store at the specified prices:</p>
+<ul>
+<li><a href="https://sales-box-photos.s3.eu-central-1.amazonaws.com/vikaua/yml_ru.xml" target="_blank" rel="noopener">https://sales-box-photos.s3.eu-central-1.amazonaws.com/vikaua/yml_ru.xml</a></li>
+<li><a href="https://sales-box-photos.s3.eu-central-1.amazonaws.com/vikaua/yml_uk.xml" target="_blank" rel="noopener">https://sales-box-photos.s3.eu-central-1.amazonaws.com/vikaua/yml_uk.xml</a></li>
+<li>Adaptation of the upload to the requirements of the WP All Import plugin</li>
+<li>Generation of missing fields for the store</li>
+<li>Automatic addition of products in two languages</li>
+</ul>
+<p>👀 Examples:</p>
+<ul>
+<li>As part of the task, a script was developed that converts the nested category chains to the desired export format. It also adds fields to xml and creates a new xml file.</li>
+<li>Converted file: <a href="https://vika.market/xml/vika-ua.xml" target="_blank" rel="noopener">https://vika.market/xml/vika-ua.xml</a> ; <a href="https://vika.market/xml/vika-ru.xml" target="_blank" rel="noopener">https://vika.market/xml/vika-ru.xml</a></li>
+<li>Then the export plugin just does its job 🙂 <a href="https://skr.sh/sAbGPDyyRzb?a" target="_blank" rel="noopener">https://skr.sh/sAbGPDyyRzb?a</a></li>
+</ul>
+<p>Handler:</p>
+<p>`code`</p>
+<h3 id="s7">7. As part of site optimization by GooglePageSpeed, deferred loading of third-party scripts</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Lazy loading resources to display the first screen</li>
+</ul>
+<p>👀 Examples:</p>
+<p>`code`</p>
+<h3 id="s8">8. Connecting SMS notifications to the store</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Connecting the Turbo.sms service</li>
+<li>Sending messages with order parameters and shoe sizes to the buyer and administrator</li>
+<li>Additional check of the order date and the current date so that SMS is not sent twice when the page is reloaded</li>
+</ul>
+<p>👀 Examples:</p>
+<p>`code`</p>
+<h3 id="s9">9. Creating a simple menu widget to display subcategories in the spoiler</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Compact output of categories in a template</li>
+<li>Working with arrays and different nesting levels</li>
+<li>Highlighting the active category</li>
+</ul>
+<p>👀 Examples:</p>
+<p><pre>
+222
+</pre></p>
+<ul>
+<li>Result: <a href="https://skr.sh/vAbX33PXu7c?a" target="_blank" rel="noopener">https://skr.sh/vAbX33PXu7c?a</a></li>
+</ul>
+<h3>10. A plugin that implements schema.org markup</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Develop a convenient option for inserting micro-markup of categories/post</li>
+<li>Contains sample embed code and editable options</li>
+<li>Stores data in post meta fields</li>
+</ul>
+<p>👀 Examples:</p>
+`code`
+<p></p>
+<ul>
+<li>Output in the template:</li>
+</ul>
+<p>`
+/* Вывод keywords для Записей */
+if(is_single()){ echo get_post_meta($post->ID, 'description', 1);}
+`</p>
+<ul>
+<li>Result: <a href="https://skr.sh/sAbBSBkzlJs" target="_blank" rel="noopener">https://skr.sh/sAbBSBkzlJs</a></li>
+</ul>
