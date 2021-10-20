@@ -40,13 +40,7 @@
 <p>👀 Examples:</p>
 <ul>
 <li>Change a variable in a template:<br>
-<pre><?php
-$p = get_field("hero_p");
-echo $p;
-//Add read more
-$post = '<p>' . preg_replace('[<!--more-->]', '<span class="rmore">Read more...</span><span class="moretext">', $p) . '</span></p>';
-echo $post;
-?></pre></li>
+<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/readmore.php">View code</a></p></li>
 <li><a href="https://jsfiddle.net/max3w/mubo6zw3/12/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/mubo6zw3/12/</a></li>
 </ul>
 <h3 id="s3">3. Creating order steps in the online store</h3>
@@ -104,11 +98,9 @@ echo $post;
 <p>👀 Examples:</p>
 <p><pre><script type="text/javascript" >
 var fired = false;
-
 window.addEventListener('scroll', () => {
     if (fired === false) {
-        fired = true;
-        
+        fired = true;    
         setTimeout(() => {
             // Здесь все что можно отложить
         }, 1000)
