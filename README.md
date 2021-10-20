@@ -40,7 +40,7 @@
 <p>👀 Examples:</p>
 <ul>
 <li>Change a variable in a template:<br>
-<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/readmore.php">View code</a></p></li>
+<p>📄 <a href="https://github.com/max3w/max3w.github.io/blob/main/files/readmore.php">View code</a></p></li>
 <li><a href="https://jsfiddle.net/max3w/mubo6zw3/12/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/mubo6zw3/12/</a></li>
 </ul>
 <h3 id="s3">3. Creating order steps in the online store</h3>
@@ -89,7 +89,7 @@
 <li>Then the export plugin just does its job 🙂 <a href="https://skr.sh/sAbGPDyyRzb?a" target="_blank" rel="noopener">https://skr.sh/sAbGPDyyRzb?a</a></li>
 </ul>
 <p>Handler:</p>
-<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/handler-vika.php">View code</a><p>
+<p>📄 <a href="https://github.com/max3w/max3w.github.io/blob/main/files/handler-vika.php">View code</a><p>
 <h3 id="s7">7. As part of site optimization by GooglePageSpeed, deferred loading of third-party scripts</h3>
 <p>✍🏻 Task:</p>
 <ul>
@@ -115,7 +115,7 @@ window.addEventListener('scroll', () => {
 <li>Additional check of the order date and the current date so that SMS is not sent twice when the page is reloaded</li>
 </ul>
 <p>👀 Examples:</p>
-<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/sms.php">View code</a></p>
+<p>📄 <a href="https://github.com/max3w/max3w.github.io/blob/main/files/sms.php">View code</a></p>
 <h3 id="s9">9. Creating a simple menu widget to display subcategories in the spoiler</h3>
 <p>✍🏻 Task:</p>
 <ul>
@@ -124,7 +124,7 @@ window.addEventListener('scroll', () => {
 <li>Highlighting the active category</li>
 </ul>
 <p>👀 Examples:</p>
-<p><p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/subcategories.php">View code</a></p></p>
+<p>📄 <a href="https://github.com/max3w/max3w.github.io/blob/main/files/subcategories.php">View code</a></p>
 <ul>
 <li>Result: <a href="https://skr.sh/vAbX33PXu7c?a" target="_blank" rel="noopener">https://skr.sh/vAbX33PXu7c?a</a></li>
 </ul>
@@ -136,7 +136,7 @@ window.addEventListener('scroll', () => {
 <li>Stores data in post meta fields</li>
 </ul>
 <p>👀 Examples:</p>
-<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/schema.php">View code</a></p>
+<p>📄 <a href="https://github.com/max3w/max3w.github.io/blob/main/files/schema.php">View code</a></p>
 <p>View in the admin panel part: <a href="https://skr.sh/sAcR8jPI20b" target="_blank" rel="noopener">https://skr.sh/sAcR8jPI20b</a></p>
 <ul>
 <li>Output in the template:</li>
