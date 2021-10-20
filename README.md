@@ -89,7 +89,7 @@
 <li>Then the export plugin just does its job 🙂 <a href="https://skr.sh/sAbGPDyyRzb?a" target="_blank" rel="noopener">https://skr.sh/sAbGPDyyRzb?a</a></li>
 </ul>
 <p>Handler:</p>
-<p><p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/handler-vika.php">View code</a></
+<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/handler-vika.php">View code</a><p>
 <h3 id="s7">7. As part of site optimization by GooglePageSpeed, deferred loading of third-party scripts</h3>
 <p>✍🏻 Task:</p>
 <ul>

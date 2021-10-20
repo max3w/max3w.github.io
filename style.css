@@ -1,1 +1,6 @@
-body {background-color: #ebebeb;font-size:14pt;}
+body {
+    margin-bottom: 20px;
+    background-image: url('/img/world_dots.png');
+    background-position: bottom;font-size:14pt;
+}
+svg {height: 80vh; display: block; margin: auto;}
