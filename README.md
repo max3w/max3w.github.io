@@ -137,6 +137,7 @@ window.addEventListener('scroll', () => {
 </ul>
 <p>👀 Examples:</p>
 <p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/schema.php">View code</a></p>
+<p>View in the admin panel part: <a href="https://skr.sh/sAcR8jPI20b" target="_blank" rel="noopener">https://skr.sh/sAcR8jPI20b</a></p>
 <ul>
 <li>Output in the template:</li>
 </ul>
