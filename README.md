@@ -40,13 +40,13 @@
 <p>👀 Examples:</p>
 <ul>
 <li>Change a variable in a template:<br>
-`<?php
+<pre><?php
 $p = get_field("hero_p");
 echo $p;
 //Add read more
 $post = '<p>' . preg_replace('[<!--more-->]', '<span class="rmore">Read more...</span><span class="moretext">', $p) . '</span></p>';
 echo $post;
-?>`</li>
+?></pre></li>
 <li><a href="https://jsfiddle.net/max3w/mubo6zw3/12/" target="_blank" rel="noopener">https://jsfiddle.net/max3w/mubo6zw3/12/</a></li>
 </ul>
 <h3 id="s3">3. Creating order steps in the online store</h3>
@@ -95,14 +95,26 @@ echo $post;
 <li>Then the export plugin just does its job 🙂 <a href="https://skr.sh/sAbGPDyyRzb?a" target="_blank" rel="noopener">https://skr.sh/sAbGPDyyRzb?a</a></li>
 </ul>
 <p>Handler:</p>
-<p>`code`</p>
+<p><p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/handler-vika.php">View code</a></
 <h3 id="s7">7. As part of site optimization by GooglePageSpeed, deferred loading of third-party scripts</h3>
 <p>✍🏻 Task:</p>
 <ul>
 <li>Lazy loading resources to display the first screen</li>
 </ul>
 <p>👀 Examples:</p>
-<p>`code`</p>
+<p><pre><script type="text/javascript" >
+var fired = false;
+
+window.addEventListener('scroll', () => {
+    if (fired === false) {
+        fired = true;
+        
+        setTimeout(() => {
+            // Здесь все что можно отложить
+        }, 1000)
+    }
+});
+</script></pre></p>
 <h3 id="s8">8. Connecting SMS notifications to the store</h3>
 <p>✍🏻 Task:</p>
 <ul>
@@ -111,7 +123,7 @@ echo $post;
 <li>Additional check of the order date and the current date so that SMS is not sent twice when the page is reloaded</li>
 </ul>
 <p>👀 Examples:</p>
-<p>`code`</p>
+<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/sms.php">View code</a></p>
 <h3 id="s9">9. Creating a simple menu widget to display subcategories in the spoiler</h3>
 <p>✍🏻 Task:</p>
 <ul>
@@ -120,13 +132,11 @@ echo $post;
 <li>Highlighting the active category</li>
 </ul>
 <p>👀 Examples:</p>
-<p><pre>
-222
-</pre></p>
+<p><p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/subcategories.php">View code</a></p></p>
 <ul>
 <li>Result: <a href="https://skr.sh/vAbX33PXu7c?a" target="_blank" rel="noopener">https://skr.sh/vAbX33PXu7c?a</a></li>
 </ul>
-<h3>10. A plugin that implements schema.org markup</h3>
+<h3 id="s10">10. A plugin that implements schema.org markup</h3>
 <p>✍🏻 Task:</p>
 <ul>
 <li>Develop a convenient option for inserting micro-markup of categories/post</li>
@@ -134,15 +144,14 @@ echo $post;
 <li>Stores data in post meta fields</li>
 </ul>
 <p>👀 Examples:</p>
-`code`
-<p></p>
+<p><a href="https://github.com/max3w/max3w.github.io/blob/main/files/schema.php">View code</a></p>
 <ul>
 <li>Output in the template:</li>
 </ul>
-<p>`
+<p><pre>
 /* Вывод keywords для Записей */
 if(is_single()){ echo get_post_meta($post->ID, 'description', 1);}
-`</p>
+</pre></p>
 <ul>
 <li>Result: <a href="https://skr.sh/sAbBSBkzlJs" target="_blank" rel="noopener">https://skr.sh/sAbBSBkzlJs</a></li>
 </ul>
