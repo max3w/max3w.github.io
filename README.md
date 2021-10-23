@@ -20,6 +20,7 @@
 <li><a href="#s8">Connecting SMS notifications to the store</a></li>
 <li><a href="#s9">Creating a simple menu widget to display subcategories in the spoiler</a></li>
 <li><a href="#s10">A plugin that implements schema.org markup</a></li>
+<li><a href="#s11">Refinement of the service order form</a></li>
 </ol>
 <h3 id="s1">1. Plugin-Cards (Add menu admin bar add/remove card in bd)</h3>
 <p>✍🏻 Task:</p>
@@ -148,3 +149,13 @@ if(is_single()){ echo get_post_meta($post->ID, 'description', 1);}
 <ul>
 <li>Result: <a href="https://skr.sh/sAbBSBkzlJs" target="_blank" rel="noopener">https://skr.sh/sAbBSBkzlJs</a></li>
 </ul>
+<h3 id="s11">11. Refinement of the service order form</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>
+In the order form, which consists of 4 buttons, finalize the definition and transfer of the parameter to the order form which button was clicked on</li>
+<li>Integrate into an existing form</li>
+</ul>
+<p>👀 Examples:</p>
+<p>Jsfiidle prototyping and script development: <a href="https://jsfiddle.net/max3w/wr5kqchg/67/">https://jsfiddle.net/max3w/wr5kqchg/67/</a></p>
+<p>Демонстрация работы: <a href="https://skr.sh/vAfBDpT9U82?a">https://skr.sh/vAfBDpT9U82?a</a></p>
