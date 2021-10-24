@@ -21,6 +21,7 @@
 <li><a href="#s9">Creating a simple menu widget to display subcategories in the spoiler</a></li>
 <li><a href="#s10">A plugin that implements schema.org markup</a></li>
 <li><a href="#s11">Refinement of the service order form</a></li>
+<li><a href="#s12">Modification of the order conditions in the shopping cart</a></li>
 </ol>
 <h3 id="s1">1. Plugin-Cards (Add menu admin bar add/remove card in bd)</h3>
 <p>✍🏻 Task:</p>
@@ -158,4 +159,15 @@ In the order form, which consists of 4 buttons, finalize the definition and tran
 </ul>
 <p>👀 Examples:</p>
 <p>Jsfiidle prototyping and script development: <a href="https://jsfiddle.net/max3w/wr5kqchg/67/">https://jsfiddle.net/max3w/wr5kqchg/67/</a></p>
-<p>Демонстрация работы: <a href="https://skr.sh/vAfBDpT9U82?a">https://skr.sh/vAfBDpT9U82?a</a></p>
+<p>Demonstration of work: <a href="https://skr.sh/vAfBDpT9U82?a">https://skr.sh/vAfBDpT9U82?a</a></p>
+<h3 id="s12">12. Modification of the order conditions in the shopping cart</h3>
+<p>✍🏻 Task:</p>
+<ul>
+<li>Finalization of the minimum order amount</li>
+<li>Automatic 20% discount on condition that 51 items of a certain category are ordered</li>
+<li>Adding an automatic recount when changing the quantity of goods with a delay of 1s</li>
+</ul>
+<p>👀 Examples:</p>
+<p>Message about the minimum order amount and adding notifications in the basket: https://skr.sh/sAgnNSw0HcZ?a</p>
+<p>Video of work 20% discount when ordering 51 products from category id = 15: https://skr.sh/vAfT1qfFFZI?a</p>
+<p>📄 <a href="https://github.com/max3w/max3w.github.io/blob/main/files/cart-update.php">View code</a></p>

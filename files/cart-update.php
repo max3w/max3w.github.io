@@ -1,9 +1,3 @@
-add_action( 'woocommerce_after_shop_loop_item', 'custom_display_post_meta', 9 );
-
-//Добавляем надпись о доставке в каждом товаре
-function dost() {echo ('<p class="infodost">Замовляйте за 2 дні до отримання</p>');}
-add_action( 'woocommerce_before_add_to_cart_form', 'dost', 9 );
-//
 //Функция подсчета числа категории роз в заказе
 function getCountProduct($count = 0) {
 	$attr_name = 'troiandy'; // Название атрибута
